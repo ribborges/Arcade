@@ -3,35 +3,37 @@
 
 body {
 	background: #171717;
-	background-image: url(wallpaper.png);
+	background-image: url(https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg);
 	background-position: center;
+	background-size: cover;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 #header {
 	width: 80%;
-	height: 175px;
+	height: auto;
 	margin: 0 auto;
-	background: #232323;
+	padding-bottom: 20px;
+	background: #232323c2;
 	text-align: center;
-	border: 1px solid #ffffff;
-	border-style: hidden;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	backdrop-filter: blur(5px);
 }
 
 #menu {
 	width: 80%;
-	height: 45px;
-	background: #008CBA;
+	height: auto;
+	background: #008CBAc2;
+	backdrop-filter: blur(5px);
 	margin: 0 auto;
 	overflow: hidden;
-	
 }
 
 #main {
 	width: 80%;
 	height: 550px;
 	margin: 0 auto;
-	background: #003084;
 	display: flex;
 	align-items: center;
 	border: 1px solid #ffffff;
@@ -39,30 +41,34 @@ body {
 	text-align: center;
 }
 
-
 #col1 {
 	width: 20%;
 	height: 550px;
-	background: #B4B4B4;
-	background-image: url("colum.jpg");
+	background: #8800c7c2;
+	backdrop-filter: blur(5px);
 	background-position: left;
 	float: left;
 	text-align: center;
+	border-bottom-left-radius: 20px;
 }
 
 #col2 {
 	width: 60%;
 	height: 550px;
 	float: inherit;
+	background: #003084c2;
+	backdrop-filter: blur(5px);
 }
 
 #col3 {
+	color: #fff;
     width: 20%;
 	height: 550px;
-	background: #B4B4B4;
-	background-image: url("colum.jpg");
+	background: #8800c7c2;
+	backdrop-filter: blur(5px);
 	background-position: right;
 	float: right;
+	border-bottom-right-radius: 20px;
 }
 
 #score{
@@ -71,19 +77,21 @@ body {
 }
 
 #foot {
-	background: #232323;
+	background: #232323c2;
+	backdrop-filter: blur(5px);
 	width: 80%;
 	height: 50px;
 	margin: 0 auto;
 	text-align: center;
-	border: 1px solid #ffffff;
-	border-style: dashed;
 	color: #FFFFFF;
+	border-radius: 20px;
 }
 
 .btn {
-	background-color: #008CBA;
+	background-color: transparent;
     border: none;
+	border-radius: 20px;
+	margin: 10px;
     color: white;
     padding: 12px 28px;
     text-align: center;

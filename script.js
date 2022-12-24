@@ -9,7 +9,7 @@ function ScoreBoardGameControl (){
 	var corrects = 0;
 
 	this.updateScore =  function (){
-		var scoreDiv = document.getElementById("score");
+		var scoreDiv = document.getElementById("col3");
 		scoreDiv.innerHTML =  TEXT_SCORE + score;
 	}
 
